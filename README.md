@@ -8,3 +8,21 @@ println(testNoEmbed.providerName) // YouTube
 
 val testNoEmbed = noEmbed.get("https://bad_url.com") // `NoEmbedException`
 ```
+
+### Install
+
+```xml
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+```xml
+	<dependency>
+	    <groupId>com.github.andyklimczak</groupId>
+	    <artifactId>No-Embed-JVM</artifactId>
+	    <version>-SNAPSHOT</version>
+	</dependency>
+```
