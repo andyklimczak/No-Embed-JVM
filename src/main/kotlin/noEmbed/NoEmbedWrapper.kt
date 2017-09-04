@@ -1,4 +1,4 @@
-@file:JvmName("noEmbed")
+@file:JvmName("NoEmbedBuilder")
 
 package noEmbed
 
